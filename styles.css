@@ -19,15 +19,18 @@ h5 {
   margin: 20px;
 }
 
+h5 {
+  width: 200px;
+  margin-left: 590px;
+}
+
 @keyframes gameWon {
   to {
     color: white;
-    border-width: 6px;
-    border-height: 20px;
     background-color: grey;
   }
 }
 .winner {
   animation-name: gameWon;
-  animation-duration: 10s;
+  animation-duration: 15s;
 }
